@@ -1,0 +1,58 @@
+
+# ==========================================
+# MZ Core
+# ==========================================
+# Testes locais
+tests/
+test-results/
+coverage/
+__pycache__/
+.pytest_cache/
+# Graphify - arquivos gerados pela análise
+/graphify-out/
+
+# Node.js / gerenciadores de pacotes
+node_modules/
+**/node_modules/
+.npm/
+.pnpm-store/
+
+# Cache do Vite e ferramentas de build
+**/.vite/
+**/.cache/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Ambiente local
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# FRONTEND - MANTER NO REPOSITÓRIO
+# ==========================================
+
+# Não ignorar web/dist/
+# O FiveM utiliza os arquivos compilados.
+!/web/dist/
+!/web/dist/**
+
+# Manter código-fonte e lockfile versionados.
